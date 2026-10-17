@@ -1,0 +1,10 @@
+{
+  "category.qolutils": "QoL Utils",
+  "key.qolutils.teleport_death": "Teleport to Last Death",
+  "key.qolutils.auto_eat": "Auto-Eat / Quick Eat",
+  "key.qolutils.auto_torch": "Auto-Torch",
+  "key.qolutils.drop_junk": "Fast Drop Junk",
+  "key.qolutils.auto_tool": "Auto-Tool Toggle",
+  "key.qolutils.safe_walk": "SafeWalk Toggle",
+  "key.qolutils.parkour": "Parkour Assistant Toggle"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "qolutils",
+  "version": "${version}",
+  "name": "QoL Utils",
+  "description": "Client-side quality-of-life utilities on the numpad. Silent inventory actions, actionbar-only feedback.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.qolutils.QolUtilsClient"]
+  },
+  "mixins": [
+    { "config": "qolutils.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
